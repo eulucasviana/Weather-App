@@ -1,5 +1,8 @@
-.card-content {
-  position: relative;
+.App-content {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
   width: 1366px;
   height: 768px;
 
