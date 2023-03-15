@@ -30,6 +30,77 @@ body {
   border-radius: 10px;
 }
 
+.Clouds {
+  position: absolute;
+  width: 176px;
+  height: 176px;
+  left: -56px;
+  top: -56px;
+}
+
+section p {
+  position: absolute;
+  font-size: 24px;
+  top: 20px;
+  color: white;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+section label {
+  opacity: 0.4;
+}
+
+.Sensacao {
+  position: relative;
+  left: 210px;
+  top: 190px;
+}
+
+.Temperature {
+  width: 103px;
+  height: 106px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 106px;
+
+  color: white;
+
+  position: absolute;
+  left: 189px;
+  bottom: 262px;
+
+  align-items: center;
+  text-align: center;
+}
+
+.Unidade {
+  width: 103px;
+  height: 106px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 106px;
+
+  color: white;
+
+  position: absolute;
+  left: 255px;
+  top: 60px;
+
+  align-items: center;
+  text-align: center;
+}
+
 .Informations {
   display: flex;
   flex-direction: row;
@@ -70,7 +141,7 @@ body {
 .Wind p {
   position: relative;
   left: 65px;
-  bottom: 50px;
+  bottom: 43px;
   font-size: 14px;
   font-family: "Lato", sans-serif;
   color: #e7e6fb;
