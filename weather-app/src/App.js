@@ -5,6 +5,8 @@ import wind from "./Images/wind.png";
 import humidity from "./Images/humidity.png";
 import rain from "./Images/rain.png";
 import clouds from "./Images/clouds.png";
+import air from "./Images/air.png";
+import sun from "./Images/sun.png";
 
 function weatherApp() {
   return (
@@ -62,8 +64,20 @@ function weatherApp() {
         </div>
       </div>
 
-      <div className="Air-content"></div>
-      <div className="Sun-content"></div>
+      <div className="Air-content">
+        <p>
+          <img src={air} alt="Imagem do Ar" /> Qualidade do Ar
+        </p>
+        <p className="Air">
+          <label>Boa</label>
+          <strong>18</strong>
+        </p>
+      </div>
+      <div className="Sun-content">
+        <p>
+          <img src={sun} alt="Imagem do Sol" /> Horário do Sol
+        </p>
+      </div>
       <div className="Weather-content"></div>
     </div>
   );

@@ -191,6 +191,61 @@ section label {
   background-color: var(--color-cards);
   border-radius: 10px;
 }
+
+.Sun-content p,
+.Air-content p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.5px;
+  line-height: 19px;
+  color: #dad8f7;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  left: calc(50% - 145px / 2);
+  top: 10px;
+}
+.Sun-content img,
+.Air-content img {
+  height: 24px;
+  width: 24px;
+}
+
+.Air strong {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 106px;
+
+  color: white;
+
+  position: relative;
+  top: 40px;
+  left: 10px;
+
+  align-items: center;
+  text-align: center;
+}
+.Air label {
+  font-size: 17px;
+  color: #87ebcd;
+
+  position: relative;
+  left: 60px;
+  top: 2px;
+
+  align-items: center;
+  text-align: center;
+}
+
 .Sun-content {
   position: absolute;
   left: 951px;
