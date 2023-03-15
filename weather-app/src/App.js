@@ -7,6 +7,10 @@ import rain from "./Images/rain.png";
 import clouds from "./Images/clouds.png";
 import air from "./Images/air.png";
 import sun from "./Images/sun.png";
+import twoclouds from "./Images/clouds.png";
+import sun2 from "./Images/sun2.png";
+import flash from "./Images/flash.png";
+import suncloud from "./Images/suncloud.png";
 
 function weatherApp() {
   return (
@@ -78,7 +82,18 @@ function weatherApp() {
           <img src={sun} alt="Imagem do Sol" /> Horário do Sol
         </p>
       </div>
-      <div className="Weather-content"></div>
+      <div className="Weather-content">
+        <p className="Amanha">Amanhã</p>
+        <img src={twoclouds} alt="Imagem nuvens" />
+        <p className="Sexta">Sexta-Feira</p>
+        <img src={sun2} alt="Imagem Sol" />
+        <p className="Sábado">Sábado</p>
+        <img src={rain} alt="Imagem nuvem de chuva" />
+        <p className="Domingo">Domingo</p>
+        <img src={flash} alt="Imagem Raio" />
+        <p className="Segunda">Segunda-Feira</p>
+        <img src={suncloud} alt="Imagem Nuvem com Sol" />
+      </div>
     </div>
   );
 }

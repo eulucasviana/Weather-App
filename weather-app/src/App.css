@@ -261,7 +261,7 @@ section label {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  gap: 12px;
+  gap: 10px;
   position: absolute;
   width: 500px;
   height: 130px;
@@ -269,4 +269,23 @@ section label {
   top: 412px;
   border-radius: 10px;
   background-color: var(--color-cards);
+}
+.Weather-content p {
+  color: #dad8f7;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+
+  position: relative;
+  bottom: 50px;
+}
+.Weather-content img {
+  height: 50px;
+  width: 50px;
+
+  position: relative;
+  bottom: 10px;
+  right: 70px;
 }
